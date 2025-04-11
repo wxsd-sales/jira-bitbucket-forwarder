@@ -3,7 +3,7 @@
 Host a lightweight node script to forward JIRA and Bitbucket (Data Center) Webhooks to Webex with a bot token.
 
 ## Demo
-[![Vidcast Overview](https://github.com/user-attachments/assets/6ef4337f-510e-4a22-aed8-ad21e85df614)](https://app.vidcast.io/share/61892bbf-046c-49a9-8698-8b37972a1bf3)
+[![Vidcast Overview](https://github.com/user-attachments/assets/475d41b0-0ee7-4284-a3e0-57b61b7bb7da)](https://app.vidcast.io/share/61892bbf-046c-49a9-8698-8b37972a1bf3)
 
 
 ## Getting Started
