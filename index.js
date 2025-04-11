@@ -165,7 +165,16 @@ app.post(`/:roomId`, async (req, res) =>{
   }
 })
 
+try{
+  let server = app.listen(port, async () => {
+    console.log(`listening on ${port}`);
+  });
+  
+  server.on('error', (err) => {
+    console.error('Error starting server:', err);
+  });
+}catch(e){
+  console.error(e);
+}
 
-app.listen(port, async () => {
-  console.log(`listening on ${port}`);
-});
+
