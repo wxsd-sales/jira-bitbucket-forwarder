@@ -41,24 +41,6 @@ _Node.js version 23.8 was used in the development of this application._
 - This should run the app on your ```PORT``` (from .env file)
 
 
-### 4. Wire Up the Widget to the Layout:
-
-- You must replace the url on line 108 of the **_callControlWidget.json_** file with your correct server endpoint. For examples:
-  - "script": "http://localhost:5000/build/bundle.js",
-  - "script": "https://your.webserver.com/build/bundle.js",
-- This should be based on the ```HOST_URI``` in your .env file + ```/build/bundle.js```.
-  
-- Upload the **_callControlWidget.json_** file onto your Administration Portal **[WebexCC Portal - US](https://portal.wxcc-us1.cisco.com/portal/home.html#)**
-  - _link above is referencing the US portal link please change if you are in different geo (us1, eu1, eu2, anz1)_
-  - Note that Layouts are configured per Agent Team.
-- Log in to your agent and select the right Team to view the new layout.
-
-**Additional Improvements:**
-
-- You can modify the widget as required.
-- To create a new compiled JS file, using `npm run build` which will create the new compiled JS under `build/bundle.js`.
-- You may rename this file, host it on your server of choice, and use this as the widget `src` parameter in the layout.
-
 ## License
 
 All contents are licensed under the MIT license. Please see [license](LICENSE) for details.
@@ -71,4 +53,4 @@ Everything included is for demo and Proof of Concept purposes only. Use of the s
  
 ## Support
 
-Please contact the Webex SD team at [wxsd@external.cisco.com](mailto:wxsd@external.cisco.com?subject=CCMeetingTransferWidget) for questions. Or for Cisco internal, reach out to us on Webex App via our bot globalexpert@webex.bot & choose "Engagement Type: API/SDK Proof of Concept Integration Development". 
+Please contact the Webex SD team at [wxsd@external.cisco.com](mailto:wxsd@external.cisco.com?subject=JIRABitbucketForwarder) for questions. Or for Cisco internal, reach out to us on Webex App via our bot globalexpert@webex.bot & choose "Engagement Type: API/SDK Proof of Concept Integration Development". 
